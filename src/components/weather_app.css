@@ -1,0 +1,118 @@
+.nav_btn {
+  margin: 20px;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  background-color: rgba(73, 85, 124, 0.514);
+  border-radius: 8px;
+  color: white;
+}
+.nav_btn:hover {
+  box-shadow: 4px 4px 5px rgb(86, 118, 187), 1px 1px 5px rgba(255, 255, 255, 1);
+  transition: box-shadow 0.2s;
+}
+
+.loading {
+  background-image: url(../images/loader.svg);
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  padding: 30px;
+}
+.data_block {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.weather_card {
+  padding: 14px;
+  height: fit-content;
+  width: 170px;
+  border-radius: 8px;
+  background-color: rgba(73, 85, 124, 0.514);
+  margin: 20px;
+  color: white;
+  font-style: unset;
+}
+.weather_desctriptions {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.city_name_btn {
+  border: none;
+  font-size: medium;
+  font-style: italic;
+  color: white;
+  width: 100px;
+  height: 30px;
+  padding: 6px;
+  margin: 20px;
+  background-color: rgba(42, 67, 104, 0.514);
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.city_name_btn:hover,
+.more_details_btn:hover {
+  box-shadow: 4px 4px 5px rgb(86, 118, 187), 1px 1px 5px rgba(255, 255, 255, 1);
+  transition: box-shadow 0.2s;
+}
+.city_name_header {
+  width: 300px;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 8px;
+  background-color: rgba(48, 52, 53, 0.322);
+}
+.date,
+.temp {
+  font-size: 18px;
+  font-style: oblique;
+  margin: 0;
+}
+.main_temp {
+  margin: 0;
+}
+.weather_desctription {
+  font-size: 12px;
+  margin: 0;
+}
+.desctription_header,
+.temp_header {
+  font-size: 10px;
+  color: rgb(252, 252, 252);
+}
+.weather_icon {
+  width: 50px;
+  margin: 0px;
+}
+
+.search {
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+  width: 200px;
+  height: 30px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid rgba(48, 52, 53, 0.274);
+}
+.search:focus {
+  outline: none;
+  box-shadow: 4px 4px 5px rgb(86, 118, 187), 1px 1px 5px rgba(255, 255, 255, 1);
+  transition: box-shadow 0.2s;
+}
+.more_details_btn {
+  width: 100px;
+  height: 20px;
+  border: none;
+  background-color: rgba(42, 67, 104, 0.514);
+  cursor: pointer;
+  border-radius: 8px;
+}

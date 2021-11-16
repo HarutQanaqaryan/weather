@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Get Weather 1`] = `
+<div>
+  <button
+    className="city_name_btn"
+    onClick={[Function]}
+  >
+    Minsk
+  </button>
+  <button
+    className="city_name_btn"
+    onClick={[Function]}
+  >
+    Bratislava
+  </button>
+  <button
+    className="city_name_btn"
+    onClick={[Function]}
+  >
+    Moscow
+  </button>
+  <div
+    className="wrapper_weather"
+  >
+    <h2
+      className="city_name_header"
+    >
+      Minsk
+    </h2>
+    <div
+      className="data_block"
+    >
+      <div
+        className="data_block"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Render Weather Card 1`] = `
+<div
+  className="data_block"
+/>
+`;
+
+exports[`Render Wrapper 1`] = `
+<div
+  className="wrapper_weather"
+>
+  <h2
+    className="city_name_header"
+  >
+    Minsk
+  </h2>
+  <div
+    className="data_block"
+  >
+    <div
+      className="data_block"
+    />
+  </div>
+</div>
+`;
+
+exports[`Search By CityName 1`] = `
+Array [
+  <input
+    className="search"
+    onChange={[Function]}
+    placeholder="Type city name..."
+    value="Minsk"
+  />,
+  <div
+    className="wrapper_weather"
+  >
+    <h2
+      className="city_name_header"
+    >
+      Minsk
+    </h2>
+    <div
+      className="loading"
+    />
+    <div
+      className="data_block"
+    >
+      <div
+        className="data_block"
+      />
+    </div>
+  </div>,
+]
+`;
