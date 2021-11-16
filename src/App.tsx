@@ -6,14 +6,14 @@ import GetWeather from "./components/home_page_weather"
 function App() {
   return (
     <div>
-        <Link to="/" className="nav_btn">
+        <Link to="/weather" className="nav_btn">
           Home
         </Link>
         <Link to="/search_weather" className="nav_btn">
           Search
         </Link>
         <Routes>
-          <Route path={"/"} element={<GetWeather />} />
+          <Route path={"weather"} element={<GetWeather />} />
           <Route path={"search_weather"} element={<SearchByCityName />} />
         </Routes>
     </div>
